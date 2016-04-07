@@ -1,0 +1,283 @@
+/*
+orange: #F9690E
+*/
+/* ------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    background-color: #fff;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+/* ------------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------ */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+section {
+    padding: 80px 80px;
+}
+
+.orange {
+    color: #F9690E;
+}
+
+
+
+.hr-orange {
+    width: 40%;
+    border: 2px solid #F9690E;
+    
+}
+
+/* HEADINGS */
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 290%;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 250%;
+    
+    
+}
+
+h3 {
+    font-size: 180%;
+    margin-bottom: 25px;
+}
+
+/* ICONS */
+
+.icon-big {
+    font-size: 220%;
+}
+
+
+
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------ */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url(img/hero2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+..logo:hover {
+    color: #F9690E;
+}
+
+
+
+
+.main-nav {
+    text-align: right;
+    list-style: none;
+    margin-top: 35px;
+    
+}
+
+
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 20px 0 13px;
+    line-height: 135%;
+    vertical-align: bottom;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border: 2px solid transparent;
+    font-size: 90%;
+    transition: border-bottom .3s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #F9690E;
+}
+
+nav {
+/*    color: #fff;*/
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    
+}
+
+.hr-light {
+    width: 96%;
+    margin: 4px auto;
+    color: #fff;
+}
+
+.scroll-down-btn {
+    color: #FFF;
+    position: absolute;
+    bottom: 5%;
+    left: 49.5%;
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+-
+--
+---
+----
+about me:
+
+Hello, I'm Andrew and I currently reside in Pembroke, Ontario. I am an aspiring Front-End Web Developer. I have a very high level of interest in web design and development. I have a strong foundation in HTML & CSS and familiar with JavaScript/jQuery. I'm self-taught and constantly grow my skill as a developer, learning something new every day.
