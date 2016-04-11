@@ -1,5 +1,6 @@
 /*
 orange: #d9593d;
+  
 */
 /* ------------------------------------ */
 /* BASIC SETUP */
@@ -8,6 +9,7 @@ orange: #d9593d;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 
@@ -42,14 +44,9 @@ section {
     color: #d9593d;
 }
 
-.clearfix {zoom: 1}
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
+
+
+
 
 .separator {
     color: #e6e6e6;
@@ -140,7 +137,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-    
 }
 
 .logo {
@@ -153,7 +149,7 @@ header {
 
 .logo:hover,
 .logo:active {
-    color: #F9690E;
+    color: #d9593d;
 }
 
 
@@ -191,8 +187,8 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #F9690E;
-    color: #e67e22;
+    border-bottom: 2px solid #d9593d;
+    color: #d9593d;
 }
 
 .hero-text-box {
@@ -212,7 +208,7 @@ header {
 }
 
 .scroll-down-btn {
-    color: #FFF;
+    color: #fff;
     position: absolute;
     bottom: 5%;
     left: 49.5%;
@@ -220,6 +216,10 @@ header {
     
     
 
+}
+
+.header-bot-border {
+    border-top: 2px solid #d9593d;
 }
 
 
@@ -309,7 +309,7 @@ figcaption {
     bottom: -30%;
     padding: 20px;
     background-color: #2c3f52;
-    border-top: 2px solid #F9690E;
+    border-top: 2px solid #d9593d;
     width: 100%;
     color: #fff;
     transition: opacity 0.3s, bottom 0.3s;
@@ -321,7 +321,7 @@ figcaption i {
     position:absolute;
     right: 20px;
     bottom: 20px;
-    color: #F9690E;
+    color: #d9593d;
 }
 
 figure:hover figcaption {
@@ -340,9 +340,14 @@ figure:hover img {
 /* ------------------------------------ */
 
 footer {
-    height: 270px;
-    background-color: #1b1b1b;
+    height: auto;
+    background-color: #2c3f52;
+    border-top: 2px solid #d9593d;
     
+}
+
+.connect-with-me-box {
+    padding-left: 50px;
 }
 
 footer h4 {
@@ -357,17 +362,17 @@ footer h4 {
     text-align: center;
 }
 
+.ion-social-twitter:hover { color: #55acee; }
+.ion-social-github:hover { color: #000; }
+.ion-social-linkedin:hover { color: #007bb5; }
+.ion-social-codepen:hover { color: #000; }
+
 .connect-icons li {
     display: inline-block;
-    margin: 36px 20px ;
+    margin: 20px 20px ;
 }
 
 .connect-icons li a {
-    color: #fff;
-}
-
-.wrapper p {
-    text-align: center;
     color: #fff;
 }
 
@@ -379,19 +384,38 @@ footer h4 {
 
 .resume-DL {
     padding: 8px;
-    background-color: #F9690E;
-    border: 1px solid #767676;
+    background-color: #d9593d;
+    border: 1px solid #d9593d;
     border-radius: 40px;
     color: #fff;
 }
 .form {
-    display: block;
+    width: 60%;
     margin: 0 auto;
 }
-input,
-textarea {
-    margin: 1px;
+
+input {
+    margin-bottom: 10px;
 }
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+input[type=submit] {
+    margin: 3px 0 0 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
 
 
 

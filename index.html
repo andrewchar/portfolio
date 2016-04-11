@@ -18,7 +18,8 @@
                         <a href="#" class="logo">A.C.Development</a>
                         <li><a href="#">About me</a></li><span class="orange">&frasl;&frasl;</span>
                         <li><a href="#">My work</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#">Contact me</a></li>
+                        <li><a href="#">Contact me</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#">My résumé</a></li>
                     </ul>
                 </div>
             </nav>
@@ -29,6 +30,8 @@
             </div>
                 <i class="ion-chevron-down icon-big scroll-down-btn"></i>
         </header>
+        <div class="header-bot-border"></div>
+        
         
         <section class="about-me">
             <div class="row">
@@ -107,9 +110,8 @@
         </section>
            
         <footer>
-           <div class="wrapper">
-            <div class="col span-1-of-2">
-                <h4>Connect with me</h4>
+            <div class="col span-1-of-2 connect-with-me-box">
+                <h4 class="footer-even-margin">Connect with me</h4>
                 <ul class="connect-icons">
                     <li><a href="#"><i class="icon-big ion-social-twitter"></i></a></li>
                     <li><a href="#"><i class="icon-big ion-social-github"></i></a></li>
@@ -118,14 +120,18 @@
                 </ul>
                 <a href="#" class="btn"><button class="resume-DL">Download My Resume <i class="ion-ios-arrow-thin-right"></i></button></a>
             </div>
-            <div class="col span-1-of-2">
+            <div class="col span-1-of-2 form-box">
                 <form  class="form" action="https://formspree.io/andrew.charlebois@hotmail.com" method="POST">
-                    <input type="text" name="name" placeholder="Your name">
-                    <input type="text" name="_replyto" placeholder="Your email" /><br>
-                    <textarea name="message" rows="4" placeholder="Message"></textarea><br>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="text" name="_replyto" placeholder="Your email" required /><br>
+                    <textarea name="message" rows="4" placeholder="Your message" required></textarea><br>
                     <input type="submit" value="Send" class="resume-DL">
                 </form>
             </div>
+            <div class="row copyright">
+                <p>
+                    Copyright &copy; 2016 by Andrew Charlebois. All rights reserved.
+                </p>
             </div>
         </footer>
             
