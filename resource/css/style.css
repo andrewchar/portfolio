@@ -19,7 +19,7 @@ body {
     background-color: #fff;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
     font-weight: 400;
 /*    color: #555;*/
     
@@ -40,13 +40,10 @@ section {
     padding: 80px 80px;
 }
 
+/* for span classes */
 .orange {
     color: #d9593d;
 }
-
-
-
-
 
 .separator {
     color: #e6e6e6;
@@ -69,8 +66,10 @@ h3 {
 
 h1 {
     font-size: 290%;
-    margin-bottom: 0;
-    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    
 }
 
 h2 {
@@ -97,7 +96,7 @@ h3:after {
 h4 {
     font-size: 150%;
     letter-spacing: 1px;
-    color: #fff;
+/*    color: #fff;*/
 }
 
 /* ICONS */
@@ -118,12 +117,7 @@ p {
     color: #555;
 }
 
-.about-me {
-    line-height: 145%;
-    width: 60%;
-    margin-left: 20%;
-    text-align: center;
-}
+
 
 
 
@@ -179,7 +173,7 @@ header {
 .main-nav li a:visited {
     color: #fff;
     text-decoration: none;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     border: 2px solid transparent;
     font-size: 90%;
     transition: border-bottom .3s;
@@ -188,7 +182,7 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #d9593d;
-    color: #d9593d;
+/*    color: #d9593d;*/
 }
 
 .hero-text-box {
@@ -203,7 +197,7 @@ header {
 
 .hr-light {
     width: 96%;
-    margin: 4px auto;
+    margin: 0 auto;
     color: #fff;
 }
 
@@ -222,6 +216,18 @@ header {
     border-top: 2px solid #d9593d;
 }
 
+/* ------------------------------------ */
+/* ABOUT ME */
+/* ------------------------------------ */
+.about-text {
+    width: 87%;  /*for line length max 90 character */
+    margin-left: 6.5%;
+    
+}
+
+
+
+''
 
 /* ------------------------------------ */
 /* SKILLS */
@@ -267,76 +273,55 @@ header {
 }
 
 .skill-text {
-    line-height: 135%;
-    margin-top: 5%;
+/*    margin-top: 20px;*/
+    padding-top: 25px;
 }
 
 /* ------------------------------------ */
 /* PORTFOLIO */
 /* ------------------------------------ */
-.grid {
-    padding: 20px;
-    max-width: 1300px;
-    margin: 0 auto;
+.port-wrapper {
+/*    padding-bottom: 100px;*/
+}
+
+.port-wrapper a {
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+}
+.mock-up {
+    width: 95%;
+}
+
+.tools-used-list {
     list-style: none;
-    text-align: center;
-}
-
-.grid li {
-    display: inline-block;
-    text-align: left;
-}
-
-figure {
-    display: block; 
-    position: relative; 
-    overflow: hidden;
-    border: 1px solid #555;
-    box-shadow: -1px 1px 1px #555;
-}
-
-figure img {
-    overflow: hidden;
-    transform: scale(1.15);
-    transition: transform 0.3s;
-}
-
-figcaption {
-    display: inline;
-    position: absolute;
-    opacity: 0;
-    left: 0;
-    bottom: -30%;
-    padding: 20px;
-    background-color: #2c3f52;
-    border-top: 2px solid #d9593d;
-    width: 100%;
-    color: #fff;
-    transition: opacity 0.3s, bottom 0.3s;
-}
-
-figcaption i {
-    font-size: 150%;
-    display: inline-block;
-    position:absolute;
-    right: 20px;
-    bottom: 20px;
-    color: #d9593d;
-}
-
-figure:hover figcaption {
-    opacity: 1;
-    left: 0;
-    bottom: 0;
     
 }
 
-figure:hover img {
-    transform: scale(1);
+.tools-used-list li {
+    display: inline;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------ */
-/* PORTFOLIO */
+/* FOOTER */
 /* ------------------------------------ */
 
 footer {
@@ -366,11 +351,14 @@ footer h4 {
 .ion-social-github:hover { color: #000; }
 .ion-social-linkedin:hover { color: #007bb5; }
 .ion-social-codepen:hover { color: #000; }
+.ion-fireball:hover { color: #286028; }
 
 .connect-icons li {
     display: inline-block;
-    margin: 20px 20px ;
+    margin: 40px 20px ;
 }
+
+
 
 .connect-icons li a {
     color: #fff;
@@ -378,16 +366,20 @@ footer h4 {
 
 .btn {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-decoration: none;
 }
 
-.resume-DL {
+.footer-btn {
     padding: 8px;
     background-color: #d9593d;
-    border: 1px solid #d9593d;
+    border: none;
     border-radius: 40px;
     color: #fff;
+}
+
+.footer-btn:hover {
+    background-color: #cc4528;
 }
 .form {
     width: 60%;
@@ -438,3 +430,7 @@ footer p {
 
 
 
+
+.copyright {
+    font-size: 50%;
+}

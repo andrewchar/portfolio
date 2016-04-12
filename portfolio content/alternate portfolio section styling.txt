@@ -1,0 +1,110 @@
+/* HTML */
+
+<section class="portfolio">
+            <div class="row">
+                <h3>my work</h3>
+            </div>
+            <ul class="grid">
+                <li>
+                    <figure>
+                        <a href="#"><img src="resource/img/rsz_321.jpg"></a>
+                        <figcaption>
+                            <h4>My Project</h4>
+                            <a href="#"><i class="ion-social-github"></i></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img src="resource/img/rsz_321.jpg"></a>
+                        <figcaption>
+                            <h4>My Project</h4>
+                            <a href="#"><i class="ion-social-github"></i></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img src="resource/img/rsz_321.jpg"></a>
+                        <figcaption>
+                            <h4>My Project</h4>
+                            <a href="#"><i class="ion-social-github"></i></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#"><img src="resource/img/rsz_321.jpg"></a>
+                        <figcaption>
+                            <h4>My Project</h4>
+                            <a href="#"><i class="ion-social-github"></i></a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+
+
+/* CSS */
+
+.grid {
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid li {
+    display: inline-block;
+    text-align: left;
+}
+
+figure {
+    display: block; 
+    position: relative; 
+    overflow: hidden;
+    width: 400px;
+    border: 1px solid #555;
+    box-shadow: -1px 1px 1px #555;
+}
+
+figure img {
+    overflow: hidden;
+    transform: scale(1.15);
+    transition: transform 0.3s;
+}
+
+figcaption {
+    display: inline;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    bottom: -30%;
+    padding: 20px;
+    background-color: #2c3f52;
+    border-top: 2px solid #d9593d;
+    width: 100%;
+    color: #fff;
+    transition: opacity 0.3s, bottom 0.3s;
+}
+
+figcaption i {
+    font-size: 150%;
+    display: inline-block;
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #d9593d;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+}
+
+figure:hover img {
+    transform: scale(1);
+}
