@@ -123,7 +123,7 @@ p {
 
 
 /* ------------------------------------ */
-/* HEADER */
+/* LANDING PAGE */
 /* ------------------------------------ */
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url(img/hero2.jpg);
@@ -148,7 +148,7 @@ header {
 
 
 
-
+/* MAIN NAV */
 .main-nav {
     text-align: right;
     list-style: none;
@@ -185,6 +185,22 @@ header {
 /*    color: #d9593d;*/
 }
 
+/* STICKY NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 5px #000;
+    z-index: 9999;
+}
+.sticky .main-nav {
+    margin: 20px 0 15px;
+    
+}
+
+/* HERO TEXT */
 .hero-text-box {
     position: absolute;
     top: 50%;
@@ -195,12 +211,14 @@ header {
     
 }
 
+/* HR STYLING */
 .hr-light {
     width: 96%;
     margin: 0 auto;
     color: #fff;
 }
 
+/* LANDING PAGE BTN */
 .scroll-down-btn {
     color: #fff;
     position: absolute;

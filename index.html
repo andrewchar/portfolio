@@ -8,21 +8,20 @@
         <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css"></link>
         <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css"></link>
         <link rel="stylesheet" type="text/css" href="resource/css/style.css"></link>
-<!--        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500|Pacifico' rel='stylesheet' type='text/css'>-->
-<!--        <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,700' rel='stylesheet' type='text/css'>-->
         <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,700|Pacifico' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <header>
+       
+        <header id="top">
             <nav>
                 <div class="row">
                     <ul class="main-nav">
-                        <a href="#" class="logo">A.C.Development</a>
-                        <li><a href="#">About me</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#">Skill set</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#">My work</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#">Contact me</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#">My résumé</a></li>
+                        <a href="#top" class="logo">A.C.Development</a>
+                        <li><a href="#about-me">About me</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#skills">Skill set</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#my-work">My work</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#contact">Contact me</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#contact">My résumé</a></li>
                     </ul>
                 </div>
             </nav>
@@ -31,12 +30,12 @@
                 <hr class="hr-light">
                 <h2>Front-End <span class="orange">Developer</span></h2>
             </div>
-                <i class="ion-chevron-down icon-big scroll-down-btn"></i>
+                <a class="js--scroll-next-page" href="#"><i class="ion-chevron-down icon-big scroll-down-btn"></i></a>
         </header>
         <div class="header-bot-border"></div>
         
         
-        <section>
+        <section id="about-me" class="js--about-me">
             <div class="row">
                 <h3>i love building things</h3>
                 <p class="about-text">
@@ -45,7 +44,7 @@
             </div>
         </section>
             
-        <section class="skill-set">
+        <section id="skills" class="skill-set">
             <div class="row">
                 <h3>my skillset</h3>
             </div>
@@ -66,7 +65,7 @@
             </div>
         </section>
            
-        <section class="portfolio">
+        <section id="my-work" class="portfolio">
            <div class="row">
                 <h3>my work</h3>
             </div>
@@ -173,7 +172,7 @@
         </section>  
            
            
-        <footer>
+        <footer id="contact">
             <div class="col span-1-of-2 connect-with-me-box">
                 <h4 class="footer-even-margin">Connect with me</h4>
                 <ul class="connect-icons">
@@ -212,7 +211,8 @@
 
 
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="vendor/js/jquery.waypoints.min.js"></script>
         <script src="resource/js/script.js"></script>
 
     </body>
