@@ -15,7 +15,7 @@ body {
     background-color: #fff;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
@@ -43,25 +43,22 @@ section { padding: 80px 80px; }
 h1,
 h2,
 h3 {
-    text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-h1 {
-    font-size: 290%;
-    margin: 0;
-    padding: 0;
     font-weight: 700;
 }
 
-h2 { font-size: 250%; }
+h1 {
+    font-size: 220%;
+    margin: 5px;
+}
 
-h3 {
+
+h2 {
     font-size: 180%;
     text-align: center;    
 }
 
-h3:after {
+h2:after {
     display: block;
     height: 4px;
     background-color: #d9593d;
@@ -71,15 +68,13 @@ h3:after {
     margin-bottom: 65px;
 }
 
-h4 {
-    font-size: 150%;
+h3 {
+    font-size: 130%;
     letter-spacing: 1px;
 }
 
 /* ICONS */
 .icon-big { font-size: 220%; }
-
-.icon-small { font-size: 150%; }
 
 /* PARAGRAPH */
 p {
@@ -103,13 +98,11 @@ header {
     float: left;
     color: #fff;
     text-decoration: none;
-    margin-top: -5px;
+    margin-top: 30px;
 }
 
 .logo:hover,
-.logo:active {
-    color: #d9593d;
-}
+.logo:active { color: #d9593d; }
 
 /* NAV */
 .main-nav {
@@ -166,6 +159,8 @@ header {
 
 .sticky .main-nav { margin: 20px 0 15px; }
 
+.sticky .logo {margin-top: 20px;}
+
 /* HERO TEXT */
 .hero-text-box {
     position: absolute;
@@ -174,12 +169,6 @@ header {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-}
-
-/* line separator in hero box */
-.my-name {
-    border-bottom: 2px solid #fff;
-    color: #fff;
 }
 
 /* LANDING PAGE SCROLL BTN */
@@ -284,7 +273,7 @@ footer {
 
 .connect-with-me-box { padding-left: 50px; }
 
-footer h4 {
+footer h3 {
     color: #fff;
     margin-top: 26px;
     text-align: center;

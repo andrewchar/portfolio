@@ -72,7 +72,7 @@ $(document).ready(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
         
-        nav.slideToggle(200)
+        nav.toggle()
         
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
@@ -82,5 +82,14 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
     });
+    
+    /* show nav again once window is resized from mobile to computer nav, in this case 800px */
+    $(window).resize(function() {
+    var w = $(window).width();
+    var menu = $('nav ul');
+    if (w > 800 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+    }); 
 
 });

@@ -3,7 +3,6 @@
     
     .hero-text-box { width: 100%; }
     
-    .my-name { border-bottom: 0; }
     
     .skill-text { padding-top: 0; }
 }
@@ -22,22 +21,26 @@
     html,
     body { font-size: 19px; }
     
-    h1 {font-size: 260%; }
-    h2 {font-size: 240%; }
-    h4 { margin-bottom: 5px; }
+    h1 {font-size: 200%; }
+    h2 {font-size: 160%; }
     
-    /* NAV */
+    /* MOBILE NAV */
     .main-nav {
         display: none;
         margin-top: 10px;
     }
+    
     .mobile-nav-icon { display: inline-block; }
     
     .main-nav li {
+        clear: both;
+        width: 92%;
         display: block;
+        text-align: center;
         margin-right: 40px;
+        text-transform: uppercase;
     }
-
+    
     .main-nav li a:link,
     .main-nav li a:visited { border-bottom: none; }
 
@@ -49,11 +52,11 @@
     
     /* FOOTER */
     .connect-with-me-box {
-        padding-left: 0;
+        padding: 0;
         width: 100%;
     }
 
-    footer h4 { margin-top: 5px; }
+    footer h3 { margin-top: 5px; }
     
     footer .span-1-of-2 { width: 97%; }
 
@@ -69,15 +72,18 @@
 
 
 @media only screen and (max-width: 480px) {
-    h1 { font-size: 240%; }
-    h2 { font-size: 220%; }
-    h4 { text-align: center; }
+    h1 { font-size: 180%; }
+    h2 { font-size: 140%; }
+    h3 { text-align: center; }
     
     .connect-icons li { margin: 15px 10px; }
     
-    .footer-btn {
-        margin-bottom: 5px;
-    }
+    .footer-btn { margin-bottom: 5px; }
+    footer p { font-size: 95%; }
     
     .separator { margin: 35px 0; }
+    
+    h2:after { margin-bottom: 35px; }
+    
+    .form { width: 100%; }
 }
