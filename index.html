@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <title>AC Development</title>
         <meta name="description" content="Andrew Charlebois personal portfolio">
-        <link rel="stylesheet" type="text/css" href="vendor/css/grid.css"></link>
-        <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css"></link>
-        <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css"></link>
-        <link rel="stylesheet" type="text/css" href="resource/css/style.css"></link>
+        <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/queries.css">
         <link href='https://fonts.googleapis.com/css?family=Yantramanav:400,700|Pacifico' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -15,22 +17,22 @@
         <header id="top">
             <nav>
                 <div class="row">
-                    <ul class="main-nav">
+                    <ul class="main-nav js--main-nav">
                         <a href="#top" class="logo">A.C.Development</a>
-                        <li><a href="#about-me">About me</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#skills">Skill set</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#my-work">My work</a></li><span class="orange">&frasl;&frasl;</span>
-                        <li><a href="#contact">Contact me</a></li><span class="orange">&frasl;&frasl;</span>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#skills">Skill set</a></li>
+                        <li><a href="#my-work">My work</a></li>
+                        <li><a href="#contact">Contact me</a></li>
                         <li><a href="#contact">My résumé</a></li>
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1 class="my-name"><span class="orange">A</span>ndrew.<span class="orange">C</span>harlebois</h1>
-                <hr class="hr-light">
+                <h1 class="my-name"><span class="orange">A</span>ndrew <span class="orange">C</span>harlebois</h1>
                 <h2>Front-End <span class="orange">Developer</span></h2>
             </div>
-                <a class="js--scroll-next-page" href="#"><i class="ion-chevron-down icon-big scroll-down-btn"></i></a>
+                <a class="js--scroll-next-page" href="#"><i class="ion-chevron-down icon-big scroll-down-btn animated infinite fadeInDown"></i></a>
         </header>
         <div class="header-bot-border"></div>
         
@@ -38,11 +40,14 @@
         <section id="about-me" class="js--about-me">
             <div class="row">
                 <h3>i love building things</h3>
+                <img class="selfie-pic" src="resource/img/200x200me-min.jpg" alt="selfie">
                 <p class="about-text">
-                    Hey I'm Andrew, carpenter turned web developer. My passion for building and my attention to detail gives me the drive to pay close attention to every pixel to ensure that in any interface i develop is stunning, yet functional. I am a front-end developer based in Pembroke, Ontario. I'm self-taught and always growing my skills, learning something new every day.
+                    Hey I'm Andrew, carpenter turned web developer. My passion for building and my attention to detail gives me the ability to pay close attention to every pixel to ensure that in any interface I develop is stunning, yet functional. I am a front-end developer based in Pembroke, Ontario. I'm self-taught and always growing my skills, learning something new every day.
                 </p>
+                
             </div>
         </section>
+           
             
         <section id="skills" class="skill-set">
             <div class="row">
@@ -53,7 +58,7 @@
                     <ul>
                         <li class="skill-set-1 bar">HTML5/CSS3</li>
                         <li class="skill-set-2 bar">Javascript</li>
-                        <li class="skill-set-3 bar">Jquery</li>
+                        <li class="skill-set-3 bar">jQuery</li>
                         <li class="skill-set-4 bar">Responsive design</li>
                     </ul>
                 </div>
@@ -64,15 +69,16 @@
                 </div>
             </div>
         </section>
+          
            
         <section id="my-work" class="portfolio">
            <div class="row">
                 <h3>my work</h3>
             </div>
             
-            <div class="row port-wrapper">
+            <div class="row port-wrapper js--wp-1">
                 <div class="col span-1-of-2">
-                    <a href="http://andrewchar.github.io/wiki-viewer/" target="_blank"><img src="resource/img/frame2.png" class="mock-up"></a>
+                    <a href="http://andrewchar.github.io/wiki-viewer/" target="_blank"><img src="resource/img/frame2-min.png" class="mock-up" alt="project-screenshot"></a>
                 </div>
                 <div class="col span-1-of-2">
                     <h4>Wikipedia Search</h4><br>
@@ -91,9 +97,9 @@
             
             <div class="separator">&middot;&middot;&middot;&middot;</div>
             
-            <div class="row port-wrapper">
+            <div class="row port-wrapper js--wp-2">
                 <div class="col span-1-of-2">
-                    <a href="http://andrewchar.github.io/pomodoro-clock/" target="_blank"><img src="resource/img/frame3.png" class="mock-up"></a>
+                    <a href="http://andrewchar.github.io/pomodoro-clock/" target="_blank"><img src="resource/img/frame3-min.png" class="mock-up" alt="project-screenshot"></a>
                 </div>
                 <div class="col span-1-of-2">
                     <h4>Pomodoro</h4><br>
@@ -110,14 +116,14 @@
             
             <div class="separator">&middot;&middot;&middot;&middot;</div>
             
-            <div class="row port-wrapper">
+            <div class="row port-wrapper js--wp-3">
                 <div class="col span-1-of-2">
-                    <a href="http://andrewchar.github.io/twitch-viewer/" target="_blank"><img src="resource/img/frame1.png" class="mock-up"></a>
+                    <a href="http://andrewchar.github.io/twitch-viewer/" target="_blank"><img src="resource/img/frame1-min.png" class="mock-up" alt="project-screenshot"></a>
                 </div>
                 <div class="col span-1-of-2">
                     <h4>Twitch viewer</h4><br>
                     <p>
-                        Watch some of the top Twitch streamers! Project to work with Twitch api and to list online streams that ressembled a Twitch like view. 
+                        Watch some of the top Twitch streamers! Project to work with Twitch api and to list online streams that resemble a Twitch streamers list. 
                     </p><br>
                     <ul class="tools-used-list">
                         <li>HTML5/CSS3</li>
@@ -130,9 +136,9 @@
             
             <div class="separator">&middot;&middot;&middot;&middot;</div>
             
-            <div class="row port-wrapper">
+            <div class="row port-wrapper js--wp-4">
                 <div class="col span-1-of-2">
-                    <a href="http://andrewchar.github.io/calculator/" target="_blank"><img src="resource/img/frame4.png" class="mock-up"></a>
+                    <a href="http://andrewchar.github.io/calculator/" target="_blank"><img src="resource/img/frame4-min.png" class="mock-up" alt="project-screenshot"></a>
                 </div>
                 <div class="col span-1-of-2">
                     <h4>Calculator</h4><br>
@@ -150,14 +156,14 @@
             
             <div class="separator">&middot;&middot;&middot;&middot;</div>
             
-            <div class="row port-wrapper">
+            <div class="row port-wrapper js--wp-5">
                 <div class="col span-1-of-2">
-                    <a href="http://andrewchar.github.io/local-weather/" target="_blank"><img src="resource/img/frame5.png" class="mock-up"></a>
+                    <a href="http://andrewchar.github.io/local-weather/" target="_blank"><img src="resource/img/frame5-min.png" class="mock-up" alt="project-screenshot"></a>
                 </div>
                 <div class="col span-1-of-2">
                     <h4>Local weather</h4><br>
                     <p>
-                        Using geolocation to pin-point your location to get precise weather details in your area.
+                        Using geolocation to pinpoint your location to get precise weather details in your area.
                     </p><br>
                     <ul class="tools-used-list">
                         <li>HTML5/CSS3</li>
@@ -168,7 +174,6 @@
                     </ul>
                 </div>
             </div>
-
         </section>  
            
            
@@ -181,7 +186,7 @@
                     <li><a href="https://www.linkedin.com/in/andrew-charlebois-a4b947113" target="_blank"><i class="icon-big ion-social-linkedin"></i></a></li>
                     <li><a href="https://www.freecodecamp.com/andrewchar" target="_blank"><i class="icon-big ion-fireball"></i></a></li>
                 </ul>
-                <a href="#" class="btn"><button class="footer-btn">Download My Resume <i class="ion-ios-arrow-thin-right"></i></button></a>
+                <button class="footer-btn"><a href="#" class="btn">Download My Résumé <i class="ion-ios-arrow-thin-right"></i></a></button>
             </div>
             <div class="col span-1-of-2 form-box">
                 <form  class="form" action="https://formspree.io/andrew.charlebois@hotmail.com" method="POST">
@@ -199,18 +204,6 @@
             </div>
         </footer>
             
-        
-        
-        
-        
-
-
-
-
-
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="vendor/js/jquery.waypoints.min.js"></script>
         <script src="resource/js/script.js"></script>

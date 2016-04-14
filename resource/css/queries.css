@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+    
+    .hero-text-box { width: 100%; }
+    
+    .my-name { border-bottom: 0; }
+    
+    .skill-text { padding-top: 0; }
+}
+
+
+@media only screen and (max-width: 1023px) {
+    section { padding: 60px 0; }
+    
+    .separator { margin: 55px 0; }
+    
+    .form { width: 97%; }
+}
+
+
+@media only screen and (max-width: 800px) {
+    html,
+    body { font-size: 19px; }
+    
+    h1 {font-size: 260%; }
+    h2 {font-size: 240%; }
+    h4 { margin-bottom: 5px; }
+    
+    /* NAV */
+    .main-nav {
+        display: none;
+        margin-top: 10px;
+    }
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav li {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited { border-bottom: none; }
+
+    .main-nav li a:hover,
+    .main-nav li a:active { border-bottom: none; }
+    
+    /* ICON */
+    .icon-big { font-size: 200%; }
+    
+    /* FOOTER */
+    .connect-with-me-box {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    footer h4 { margin-top: 5px; }
+    
+    footer .span-1-of-2 { width: 97%; }
+
+    .connect-icons li { margin: 20px 20px; }
+
+    input[type=submit] {
+        display: block;
+        margin: 3px auto;
+    }
+
+    input { margin-bottom: 4px; }
+}
+
+
+@media only screen and (max-width: 480px) {
+    h1 { font-size: 240%; }
+    h2 { font-size: 220%; }
+    h4 { text-align: center; }
+    
+    .connect-icons li { margin: 15px 10px; }
+    
+    .footer-btn {
+        margin-bottom: 5px;
+    }
+    
+    .separator { margin: 35px 0; }
+}
