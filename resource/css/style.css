@@ -86,6 +86,7 @@ p {
 /* LANDING PAGE */
 /* ------------------------------------ */
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url(img/hero2-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url(img/hero2-min.jpg);
     background-size: cover;
     background-position: center;
@@ -125,6 +126,7 @@ header {
     padding-bottom: 15px;
     border: 2px solid transparent;
     font-size: 90%;
+    -webkit-transition: border-bottom .3s;
     transition: border-bottom .3s;
 }
 
@@ -166,6 +168,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
@@ -177,7 +180,9 @@ header {
     position: absolute;
     bottom: 5%;
     left: 49.5%;
+    -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
+    -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
 
@@ -250,7 +255,12 @@ header {
 
 .tools-used-list {
     list-style: none;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -347,6 +357,7 @@ footer p {
 .js--wp-4,
 .js--wp-5 {
     opacity: 0;
+    -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
 }
 
