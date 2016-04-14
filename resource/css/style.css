@@ -313,7 +313,7 @@ footer h3 {
 .footer-btn {
     display: block;
     margin: 0 auto;
-    padding: 8px;
+    padding: 10px;
     background-color: #d9593d;
     border: none;
     border-radius: 40px;
@@ -338,7 +338,10 @@ textarea {
     border: 1px solid #fff;
 }
 
-input[type=submit] { margin: 3px 0 0 10px; }
+input[type=submit] {
+    margin: 3px 0 0 10px;
+    width: 100px;
+}
 
 footer p {
     text-align: center;
