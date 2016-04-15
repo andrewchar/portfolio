@@ -1,8 +1,6 @@
 @media only screen and (max-width: 1200px) {
     .row { padding: 0 2%; }
     
-    .hero-text-box { width: 100%; }
-    
     .skill-text { padding-top: 10px; }
 }
 
@@ -78,6 +76,11 @@
         text-align: center;
         margin-top: 20px;
     }
+    
+    .long-text {
+        width: 100%;   
+        margin-left: 0;
+}
     
     .connect-icons li { margin: 15px 10px; }
     

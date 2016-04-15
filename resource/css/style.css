@@ -85,6 +85,12 @@ p {
     color: #333333;
 }
 
+.long-text {
+    width: 70%;   
+    margin-left: 15%;
+    text-align: center;
+}
+
 /* ------------------------------------ */
 /* LANDING PAGE */
 /* ------------------------------------ */
@@ -174,6 +180,7 @@ header {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 .hero-text {
@@ -199,11 +206,7 @@ header {
 /* ------------------------------------ */
 /* ABOUT ME */
 /* ------------------------------------ */
-.about-text {
-    width: 90%;   
-    margin-left: 5%;
-    text-align: center;
-}
+
 
 .selfie-pic {
     display: block;
@@ -218,36 +221,39 @@ header {
 /* ------------------------------------ */
 .skill-set { background-color: #f5f5f5; }
 
-.skill-bar ul { list-style: none; }
 
-.skill-bar li {
-    border-radius: 5px;
-    margin: 10px;
-    padding: 5px 0 5px 10px;
-    color: #fff;
-    box-shadow: -2px 2px 2px #cbcbcb;
+.logos {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
 }
 
-.skill-set-1 { background-color: #1abc9c; }
-
-.skill-set-2 {
-    width: 79%;
-    background-color: #2980b9;
+.logos strong {
+    font-size: 80%;
 }
 
-.skill-set-3 {
-    width: 85%;
-    background-color: #e74c3c;
+.skills-logo:first-child { margin-left: 16px; }
+.skills-logo {
+    display: inline-block;
+    max-width: 90px;
+    text-align: center;
+    margin: 0 25px 15px 0;
 }
-
-.skill-set-4 {
-    width: 93%;
-    background-color: #9b59b6;
-}
-
-.skill-text {
-    padding-top: 25px;
-}
+.skills-logo:last-child { margin-right: 0; }
 
 /* ------------------------------------ */
 /* PORTFOLIO */
