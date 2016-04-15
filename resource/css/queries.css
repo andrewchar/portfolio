@@ -4,14 +4,14 @@
     .hero-text-box { width: 100%; }
     
     
-    .skill-text { padding-top: 0; }
+    .skill-text { padding-top: 10px; }
 }
 
 
 @media only screen and (max-width: 1023px) {
     section { padding: 60px 0; }
     
-    .separator { margin: 55px 0; }
+/*    .separator { margin: 55px auto; }*/
     
     .form { width: 97%; }
 }
@@ -34,10 +34,9 @@
     
     .main-nav li {
         clear: both;
-        width: 92%;
+        width: 90%;
         display: block;
         text-align: center;
-        margin-right: 40px;
         text-transform: uppercase;
     }
     
@@ -74,16 +73,22 @@
 @media only screen and (max-width: 480px) {
     h1 { font-size: 180%; }
     h2 { font-size: 140%; }
-    h3 { text-align: center; }
+    h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
     
     .connect-icons li { margin: 15px 10px; }
     
     .footer-btn { margin-bottom: 5px; }
     footer p { font-size: 95%; }
     
-    .separator { margin: 35px 0; }
+/*    .separator { margin: 35px auto; }*/
     
     h2:after { margin-bottom: 35px; }
     
-    .form { width: 100%; }
+    .form {
+        width: 100%;
+        margin-left: 5px;
+    }
 }
