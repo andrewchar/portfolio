@@ -3,7 +3,6 @@
     
     .hero-text-box { width: 100%; }
     
-    
     .skill-text { padding-top: 10px; }
 }
 
@@ -11,8 +10,7 @@
 @media only screen and (max-width: 1023px) {
     section { padding: 60px 0; }
     
-/*    .separator { margin: 55px auto; }*/
-    
+        
     .form { width: 97%; }
 }
 
@@ -45,6 +43,9 @@
 
     .main-nav li a:hover,
     .main-nav li a:active { border-bottom: none; }
+    
+    /* list of tools used in "my work" section */
+    .tools-used-list { justify-content: center; }
     
     /* ICON */
     .icon-big { font-size: 200%; }
@@ -82,8 +83,6 @@
     
     .footer-btn { margin-bottom: 5px; }
     footer p { font-size: 95%; }
-    
-/*    .separator { margin: 35px auto; }*/
     
     h2:after { margin-bottom: 35px; }
     
