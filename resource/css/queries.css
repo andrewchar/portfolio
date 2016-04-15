@@ -45,7 +45,7 @@
     .main-nav li a:active { border-bottom: none; }
     
     /* list of tools used in "my work" section */
-    .tools-used-list { justify-content: center; }
+    .tools-used-list { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
     
     /* ICON */
     .icon-big { font-size: 200%; }

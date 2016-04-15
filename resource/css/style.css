@@ -37,6 +37,7 @@ section { padding: 80px 80px; }
     width: 50%;
     border : 0;
     height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0)); 
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0)); 
 }
 
@@ -256,7 +257,12 @@ header {
 
 .tools-used-list {
     width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
