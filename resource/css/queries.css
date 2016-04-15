@@ -31,6 +31,7 @@
     .main-nav li {
         clear: both;
         width: 90%;
+        margin-left: 5%;
         display: block;
         text-align: center;
         text-transform: uppercase;
