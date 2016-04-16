@@ -29,7 +29,7 @@ body {
 
 section { padding: 80px 80px; }
 
-/* for span classes */
+/* span classes */
 .orange { color: #d9593d; }
 
 .separator {
@@ -41,24 +41,33 @@ section { padding: 80px 80px; }
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(217, 217, 217), rgba(0, 0, 0, 0)); 
 }
 
-/* HEADINGS */
-h1,
-h2,
-h3 {
+.hero-small-text {
+    font-size: 80%;
     letter-spacing: 2px;
     font-weight: 700;
 }
 
+/* HEADINGS */
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
+
 h1 {
-    font-size: 220%;
-    margin: 5px;
-    text-transform: uppercase;
+    font-size: 260%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
 
 h2 {
     font-size: 180%;
-    text-align: center;    
+    text-align: center; 
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 h2:after {
@@ -67,13 +76,12 @@ h2:after {
     background-color: #d9593d;
     content: " ";
     width: 150px;
-    margin: 25px auto;
+    margin: 20px auto;
     margin-bottom: 65px;
 }
 
 h3 {
     font-size: 130%;
-    letter-spacing: 1px;
 }
 
 /* ICONS */
@@ -95,7 +103,8 @@ p {
 /* LANDING PAGE */
 /* ------------------------------------ */
 header {
-    background-image:url(img/hero.min1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(img/hero.min1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(img/hero.min1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -169,23 +178,19 @@ header {
 
 .sticky .main-nav { margin: 20px 0 15px; }
 
-.sticky .logo {margin-top: 20px;}
+.sticky .logo { margin-top: 15px; }
 
 /* HERO TEXT */
 .hero-text-box {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 1140px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
+    text-transform: uppercase;
     text-align: center;
-    width: 100%;
-}
-
-.hero-text {
-    display: inline;
-    background-color: rgba(0, 0, 0, 0.65);
 }
 
 /* LANDING PAGE SCROLL BTN */
@@ -206,8 +211,6 @@ header {
 /* ------------------------------------ */
 /* ABOUT ME */
 /* ------------------------------------ */
-
-
 .selfie-pic {
     display: block;
     margin: 0 auto;
@@ -242,9 +245,7 @@ header {
     margin-bottom: 25px;
 }
 
-.logos strong {
-    font-size: 80%;
-}
+.logos strong { font-size: 80%; }
 
 .skills-logo:first-child { margin-left: 16px; }
 .skills-logo {

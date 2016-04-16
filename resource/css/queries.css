@@ -2,13 +2,17 @@
     .row { padding: 0 2%; }
     
     .skill-text { padding-top: 10px; }
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
 }
 
 
 @media only screen and (max-width: 1023px) {
     section { padding: 60px 0; }
     
-        
     .form { width: 97%; }
 }
 
@@ -26,12 +30,16 @@
         margin-top: 10px;
     }
     
+    .logo,
+    .sticky .logo { margin: 20px 0 0 10px; }
+    
     .mobile-nav-icon { display: inline-block; }
     
     .main-nav li {
         clear: both;
         width: 90%;
         margin-left: 5%;
+        margin-top: 5px;
         display: block;
         text-align: center;
         text-transform: uppercase;
@@ -77,6 +85,8 @@
         text-align: center;
         margin-top: 20px;
     }
+    
+    .hero-small-text { font-size: 80%; }
     
     .long-text {
         width: 100%;   
