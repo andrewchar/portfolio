@@ -287,6 +287,25 @@ header {
 }
 
 /* ------------------------------------ */
+/* AWARDS & RECOGNITION */
+/* ------------------------------------ */
+.awards { margin-bottom: 80px; }
+
+.award-list {
+    list-style: none;
+    display: block;
+}
+
+.award-list li { text-align: center; }
+
+.award-list a:link,
+.award-list a:visited {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 2px dotted #d9593d;
+}
+
+/* ------------------------------------ */
 /* FOOTER */
 /* ------------------------------------ */
 footer {
