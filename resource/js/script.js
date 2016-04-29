@@ -67,6 +67,12 @@ $(document).ready(function() {
         offset: '59%'
     })
     
+    $('.js--wp-6').waypoint(function(direction) {
+        $('.js--wp-6').addClass('animated fadeIn');
+    }, {
+        offset: '59%'
+    })
+    
     /* Mobile nav */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
