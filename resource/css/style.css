@@ -99,6 +99,10 @@ p {
     text-align: center;
 }
 
+/* light gray background for visual hierarchy */
+.awards,
+.skill-set { background-color: #f5f5f5; }
+
 /* ------------------------------------ */
 /* LANDING PAGE */
 /* ------------------------------------ */
@@ -222,9 +226,6 @@ header {
 /* ------------------------------------ */
 /* SKILLS */
 /* ------------------------------------ */
-.skill-set { background-color: #f5f5f5; }
-
-
 .logos {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
