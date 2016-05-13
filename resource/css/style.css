@@ -257,6 +257,9 @@ header {
 }
 .skills-logo:last-child { margin-right: 0; }
 
+/* offset images that are different height */
+.logo-spec img { padding-bottom: 10px; }
+
 /* ------------------------------------ */
 /* PORTFOLIO */
 /* ------------------------------------ */
