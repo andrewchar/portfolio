@@ -77,6 +77,12 @@
     input { margin-bottom: 4px; }
 }
 
+@media only screen and (max-width: 650px) {
+    .awards-sec {
+        padding-bottom: 40px;
+    }
+}
+
 
 @media only screen and (max-width: 480px) {
     h1 { font-size: 180%; }
